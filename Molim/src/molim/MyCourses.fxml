@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="molim.MyCoursesController">
+    <children>
+      <ImageView fitHeight="271.0" fitWidth="355.0" layoutX="-14.0" layoutY="-4.0">
+         <image>
+            <Image url="@Pics/back-ground3.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1.0" layoutY="118.0" prefHeight="623.0" prefWidth="335.0" style="-fx-background-color: white; -fx-background-radius: 50; -fx-border-radius: 50; -fx-border-color: #D8D8D8; -fx-border-width: 4;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <ImageView fitHeight="38.0" fitWidth="55.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="235.0" layoutY="74.0" style="-fx-border-width: 3;" text="دوراتي">
+         <font>
+            <Font name="29LT Bukra Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutY="3.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: clear;" />
+      <Button fx:id="back" layoutX="1.0" layoutY="18.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: TRANSPARENT;">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/left-arrow-light.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ScrollPane fx:id="scroll" hbarPolicy="NEVER" layoutX="51.0" layoutY="212.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="343.0" prefWidth="234.0" vbarPolicy="ALWAYS">
+         <content>
+            <VBox fx:id="v" prefHeight="516.0" prefWidth="260.0" style="-fx-background-color: #FEFFFF;">
+               <children>
+                  <Label fx:id="lbno" alignment="CENTER" prefHeight="317.0" prefWidth="215.0" text="لا توجد لديك دورات حاليا">
+                     <font>
+                        <Font name="29LT Bukra Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children></VBox>
+         </content>
+      </ScrollPane>
+      <HBox alignment="TOP_RIGHT" layoutX="85.0" layoutY="167.0" prefHeight="38.0" prefWidth="200.0" spacing="15.0">
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+         <children>
+            <ToggleButton fx:id="tog2" mnemonicParsing="false" onAction="#changeSelect2" style="-fx-background-color: white; -fx-background-radius: 20;" text="الفعاليات">
+               <font>
+                  <Font name="29LT Bukra Regular" size="13.0" />
+               </font></ToggleButton>
+            <ToggleButton fx:id="tog1" mnemonicParsing="false" onAction="#changeSelect" style="-fx-background-color: white; -fx-background-radius: 20;" text="الدورات">
+               <font>
+                  <Font name="29LT Bukra Regular" size="13.0" />
+               </font></ToggleButton>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

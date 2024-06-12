@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #FEFFF3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="molim.SignUpController">
+    <children>
+      <ImageView fitHeight="137.0" fitWidth="149.0" layoutX="195.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pics/Avdd_Boton.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="save" layoutX="93.0" layoutY="433.0" mnemonicParsing="false" onAction="#signup" prefHeight="30.0" prefWidth="149.0" style="-fx-background-radius: 10px; -fx-background-color: #42A8B4;" text="حفظ" textFill="#fefff3">
+         <font>
+            <Font name="29LT Bukra Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="st_email" alignment="CENTER_RIGHT" blendMode="MULTIPLY" layoutX="77.0" layoutY="340.0" promptText="الايميل" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="29LT Bukra Regular" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="st_id" alignment="CENTER_RIGHT" blendMode="MULTIPLY" layoutX="77.0" layoutY="296.0" promptText="الرقم الجامعي" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="29LT Bukra Regular" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="st_name" alignment="CENTER_RIGHT" blendMode="MULTIPLY" cache="true" layoutX="77.0" layoutY="252.0" promptText="الاسم" style="-fx-background-radius: 10px;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="29LT Bukra Regular" size="13.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="st_password" alignment="CENTER_RIGHT" blendMode="MULTIPLY" layoutX="77.0" layoutY="382.0" promptText="كلمة السر" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="29LT Bukra Regular" size="13.0" />
+         </font>
+      </PasswordField>
+      <ImageView fitHeight="145.0" fitWidth="195.0" layoutX="147.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fill="#42a8b4" layoutX="57.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="أنشاء حساب جديد" textAlignment="CENTER" wrappingWidth="221.17449867725372">
+         <font>
+            <Font name="29LT Bukra Bold" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="152.0" fitWidth="161.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pics/Avdd_top.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="msg" alignment="CENTER" layoutX="50.0" layoutY="486.0" prefHeight="27.0" prefWidth="239.0" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="29LT Bukra Bold" size="14.0" />
+         </font></Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pics/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

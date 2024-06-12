@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="molim.UniController">
+    <children>
+      <ImageView fitHeight="600.0" fitWidth="453.0" layoutX="-85.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pics/bg.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#fdfefe" height="124.0" layoutY="507.0" opacity="0.7" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="335.0" />
+      <ScrollPane hbarPolicy="NEVER" layoutX="16.0" layoutY="118.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="374.0" prefWidth="304.0" style="-fx-background-color: #FEFFF3;" vbarPolicy="ALWAYS">
+         <content>
+            <AnchorPane fx:id="cardContainer" prefHeight="576.0" prefWidth="301.0" style="-fx-background-color: #FEFFF3;">
+               <children>
+                  <Pane layoutX="14.0" layoutY="14.0" prefHeight="113.0" prefWidth="260.0" style="-fx-background-radius: 20; -fx-background-color: TRANSPARENT;">
+                     <children>
+                        <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#42a8b4" height="116.0" layoutX="-1.0" layoutY="-1.0" opacity="0.45" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="262.0" />
+                        <Label layoutX="119.0" layoutY="14.0" text="التأمين بشكل عام" textFill="#fefff3">
+                           <font>
+                              <Font name="29LT Bukra Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="TOP" layoutX="47.0" layoutY="34.0" prefHeight="35.0" prefWidth="201.0" text="خدمات التأمين" textAlignment="RIGHT" textFill="#2c2b2b">
+                           <font>
+                              <Font name="29LT Bukra Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="course1" layoutX="107.0" layoutY="68.0" mnemonicParsing="false" style="-fx-background-color: #FEFFF3; -fx-background-radius: 15;" text="للمزيد">
+                           <font>
+                              <Font name="29LT Bukra Regular" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="14.0" layoutY="143.0" prefHeight="113.0" prefWidth="260.0" style="-fx-background-radius: 20; -fx-background-color: TRANSPARENT;">
+                     <children>
+                        <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#42a8b4" height="116.0" layoutX="-1.0" layoutY="-1.0" opacity="0.45" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="262.0" />
+                        <Label layoutX="146.0" layoutY="14.0" text="فن إدارة الوقت" textFill="#fefff3">
+                           <font>
+                              <Font name="29LT Bukra Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="TOP" layoutX="30.0" layoutY="39.0" prefHeight="35.0" prefWidth="201.0" text="منهجيات تحليل الوقت" textAlignment="RIGHT" textFill="#2c2b2b">
+                           <font>
+                              <Font name="29LT Bukra Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="course2" layoutX="105.0" layoutY="71.0" mnemonicParsing="false" style="-fx-background-color: #FEFFF3; -fx-background-radius: 15;" text="للمزيد">
+                           <font>
+                              <Font name="29LT Bukra Regular" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="14.0" layoutY="273.0" prefHeight="113.0" prefWidth="260.0" style="-fx-background-radius: 20; -fx-background-color: TRANSPARENT;">
+                     <children>
+                        <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#42a8b4" height="116.0" layoutX="-1.0" layoutY="-1.0" opacity="0.45" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="262.0" />
+                        <Label alignment="CENTER_RIGHT" contentDisplay="TOP" layoutX="30.0" layoutY="39.0" prefHeight="35.0" prefWidth="201.0" text="خدمات المعلومات" textAlignment="RIGHT" textFill="#2c2b2b">
+                           <font>
+                              <Font name="29LT Bukra Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="21.0" text="تقنية البحث في مصادر المعلومات" textFill="#fefff3">
+                           <font>
+                              <Font name="29LT Bukra Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="course3" layoutX="106.0" layoutY="69.0" mnemonicParsing="false" style="-fx-background-color: #FEFFF3; -fx-background-radius: 15;" text="للمزيد">
+                           <font>
+                              <Font name="29LT Bukra Regular" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="14.0" layoutY="404.0" prefHeight="113.0" prefWidth="260.0" style="-fx-background-radius: 20; -fx-background-color: TRANSPARENT;">
+                     <children>
+                        <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#42a8b4" height="116.0" layoutX="-1.0" layoutY="-1.0" opacity="0.45" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="262.0" />
+                        <Label layoutX="125.0" layoutY="14.0" text="التمكين الشخصي" textFill="#fefff3">
+                           <font>
+                              <Font name="29LT Bukra Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="TOP" layoutX="36.0" layoutY="37.0" prefHeight="35.0" prefWidth="201.0" text="نبذة عن الدورة" textAlignment="RIGHT" textFill="#2c2b2b">
+                           <font>
+                              <Font name="29LT Bukra Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="course4" layoutX="103.0" layoutY="72.0" mnemonicParsing="false" style="-fx-background-color: #FEFFF3; -fx-background-radius: 15;" text="للمزيد">
+                           <font>
+                              <Font name="29LT Bukra Regular" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button fx:id="myCourse" contentDisplay="TOP" layoutY="512.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="84.0" style="-fx-background-color: TRANSPARENT;" text="دوراتي" textAlignment="CENTER" textFill="#2c2b2b">
+         <graphic>
+            <ImageView fitHeight="51.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/calendar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="29LT Bukra Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="certificate" contentDisplay="TOP" layoutX="84.0" layoutY="512.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="83.0" style="-fx-background-color: TRANSPARENT;" text="شهاداتي" textAlignment="CENTER" textFill="#2c2b2b">
+         <graphic>
+            <ImageView fitHeight="51.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/003-certificate.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="29LT Bukra Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="search" contentDisplay="TOP" layoutX="167.0" layoutY="512.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="83.0" style="-fx-background-color: TRANSPARENT;" text="بحث" textAlignment="CENTER" textFill="#2c2b2b">
+         <graphic>
+            <ImageView fitHeight="51.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/search.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="29LT Bukra Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="profile" contentDisplay="TOP" layoutX="250.0" layoutY="512.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="84.0" style="-fx-background-color: TRANSPARENT;" text="حسابي" textAlignment="CENTER" textFill="#2c2b2b">
+         <graphic>
+            <ImageView fitHeight="51.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/001-user.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="29LT Bukra Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="45.0" layoutY="46.0" text="دورات الجامعة" textFill="#2c2b2b">
+         <font>
+            <Font name="29LT Bukra Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutY="14.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: TRANSPARENT;">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pics/left-arrow.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+    </children>
+</AnchorPane>
